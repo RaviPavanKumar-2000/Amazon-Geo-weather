@@ -1,0 +1,248 @@
+body{
+    background-color:white;
+    color:black;
+}
+.mydark{
+    background-color:black;
+    color:white
+}
+#coupon{
+    height: 400px;
+    width:450px;
+    background-color:rgb(232, 247, 242);
+    position:absolute;
+    margin-left:30%;
+    margin-top: 6%;
+    z-index: 20;
+    display:none;
+    background-image: url('https://i.ibb.co/Y2Ld913/flash-bg.jpg');
+    /* background-attachment: fixed; */
+    color: rgb(94, 80, 181);
+}
+.gift{
+    margin-left: 42%;
+    width: 125px;
+    height: 91px;
+    margin-top: 0px;
+    
+}
+.cont{
+    text-align: center;
+}
+
+.discount{
+    color: rgb(141, 21, 21);
+    font-size: 50px;
+    font-family: serif;
+}
+.code{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(58, 176, 223);
+}
+.Btn{
+    text-decoration: none !important;
+    background: #e63946;
+    padding: 16px;
+    width: 100%;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+.Btn:hover{
+    background: #e22535;
+}
+.cross{
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 6px;
+    float: right;
+}
+.navbar{
+    margin-bottom: 0px !important;
+}
+.navbar-inverse {
+    background-color: rgb(47, 79, 79) !important;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-size: 33px !important;
+}
+.btn-success{
+    float: left;
+    color: #fff;
+    background-color: rgb(47, 79, 79) !important;
+    border-color: rgb(47, 79, 79) !important;
+}
+/* #weather{
+    font-size: 10px;
+} */
+.fa-location-dot{
+    float: left;
+    font-size: 30px;
+    margin-left: -10px;
+    
+}
+#magni{
+    background-color: rgb(243, 135, 18);
+    color: white;
+}
+
+.glyphicon-user{
+    margin-right: -15px;
+    font-size: 15px;
+    
+}
+.glyphicon-log-in{
+    margin-right: -10px;
+    font-size: 15px;
+}
+#weather{
+    color: orange;
+    font-size: 13px;
+}
+#cart{
+    margin-top: 7px; 
+    background-color: rgb(47, 79, 79);
+    border-color: rgb(47, 79, 79);
+    color: white;
+}
+.btn-default{
+    margin-right: -10px;
+    /* margin-top: 5px; */
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+.deal{
+    
+    height: 30px;
+    /* border: 2px solid green; */
+    background-color: rgb(55 131 131);
+    color: gray;
+}
+.dealcontent{
+    margin-top: 2.5px;
+    position: absolute;
+}
+.slideImg{
+    width: 100%;
+    height: 350px !important;
+}
+#first{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.slimg{
+    height: 150px;
+}
+.pricecolor{
+    color: green;
+}
+#second{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#third{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#fourth{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#fifth{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+}
+#sixth{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#seventh{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.maintilecontainer{
+    display: inline-block;
+}
+#catlog{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.tilecontainer{
+    height: 180px;
+    width: 30%;
+    border: 1px solid white;
+    box-shadow: 10px 15px 10px #3b2632;
+    float:left;
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+
+
+
+.tilecontainer:hover{
+    transform: scale(1.1);
+    
+}
+.tilecomponent1{
+    width:52%;
+    float: left;
+    border: 0.5px solid black;
+    
+}
+.tilecomponent1 img{
+    height: 180px;
+    width: 100%;
+}
+.tilecomponent2{
+    width:45%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+.componentheading{
+    color: #cf8c8c;
+    font-size: 25px;
+}
+.componentheading > a {
+    color: #5d41e4 !important;
+}
+.componentsubheading{
+    color: gray;
+    font-size: 20px;
+}
+
+footer{
+    height: 110px;
+    /* border: 5px groove green; */
+    background-color: rgb(47, 79, 79);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    display:block;
+}
+ul{
+    list-style: none;
+}
+
